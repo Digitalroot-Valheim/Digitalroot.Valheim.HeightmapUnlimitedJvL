@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.9.12120.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5ECF9BA9-41A2-47C0-935C-104BC58F6D8B}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\LICENSE = ..\LICENSE
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{0CA8BFE1-753A-4B8E-B37B-FCF83A13F7CB}"
+	ProjectSection(SolutionItems) = preProject
+		..\docs\README.md = ..\docs\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{74C2E1A0-365B-4D42-B74D-7978CB82FD72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{00726B2A-A54F-4F2C-B693-056FE4CBABCC}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\nuget.autoupdate.yml = ..\.github\workflows\nuget.autoupdate.yml
+		..\.github\workflows\release.yml = ..\.github\workflows\release.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalroot.Valheim.HeightmapUnlimitedJvL", "Digitalroot.Valheim.HeightmapUnlimitedJvL\Digitalroot.Valheim.HeightmapUnlimitedJvL.csproj", "{AA1257A7-1DCB-FEDD-174F-BAD5971E92FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA1257A7-1DCB-FEDD-174F-BAD5971E92FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA1257A7-1DCB-FEDD-174F-BAD5971E92FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA1257A7-1DCB-FEDD-174F-BAD5971E92FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA1257A7-1DCB-FEDD-174F-BAD5971E92FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0CA8BFE1-753A-4B8E-B37B-FCF83A13F7CB} = {5ECF9BA9-41A2-47C0-935C-104BC58F6D8B}
+		{74C2E1A0-365B-4D42-B74D-7978CB82FD72} = {5ECF9BA9-41A2-47C0-935C-104BC58F6D8B}
+		{00726B2A-A54F-4F2C-B693-056FE4CBABCC} = {74C2E1A0-365B-4D42-B74D-7978CB82FD72}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10A653B9-2BB2-4DFA-BB7B-5BBC8109B357}
+	EndGlobalSection
+EndGlobal

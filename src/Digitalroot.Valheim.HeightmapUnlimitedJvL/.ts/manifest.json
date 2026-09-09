@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Digitalroot-Valheim/Digitalroot.Valheim.Common.Interfaces/main/src/json/tsio-manifest.json",
+  "name": "Heightmap_Unlimited_JvL",
+  "author": "Digitalroot",
+  "version_number": "%VERSION_NUMBER%",
+  "description": "Allows players to raise or lower terrain as much as they want! Comes with config so you can set the limits yourself.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2350",
+    "ValheimModding-Jotunn-2.30.0"
+  ],
+  "website_url": "https://www.nexusmods.com/valheim/mods/3612"
+}

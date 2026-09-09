@@ -1,0 +1,47 @@
+﻿Vanilla Valheim restricts how high or low the terrain can be based on the starting elevation. This mod gets rid of those limits and allows players to dig down to water level or as high as they want, regardless of elevation. Comes with config for max/min height.
+
+[size=3]Permission to fix and upload granted by [b]Menthus[/b]. [/size]
+[b][size=4]
+License[/size]
+[/b][url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.HeightmapUnlimitedJvL/blob/main/LICENSE]GNU Affero General Public License v3.0[/url]
+[size=3]Closed-source license is available for commercial use.[/size]
+
+[b][size=4]Installation (manual)[/size][/b]
+[list=1]
+[*][size=3]Download the latest release archive (zip) file.[/size][/*]
+[*][size=3]Extract the archive into <Steam Location>\steamapps\common\Valheim\BepInEx\plugins[/size][/*]
+[/list]
+[b][size=4]Configuration[/size][/b]
+[list]
+[*]Max Height (defaults to 200) - How high you can stack up relative to the heightmap's original position. [/*]
+[*]Min Height (defaults to 200) - How far you can dig down relative to the heightmap's original position.[/*]
+[/list]
+[b][size=4]Upgrading from [url=https://www.nexusmods.com/valheim/mods/359]Menthus's Heightmap Unlimited[/url][/size][/b]
+[list=1]
+[*]Remove [b]HeightmapUnlimited.dll[/b] it could be in the following locations. 
+[list]
+[*]<Steam Location>\steamapps\common\Valheim\BepInEx\plugins\HeightmapUnlimited.dll[/*]
+[*]<Steam Location>\steamapps\common\Valheim\BepInEx\plugins\HeightmapUnlimited\HeightmapUnlimited.dll[/*]
+[/list]
+[/*]
+[*]Open <Steam Location>\steamapps\common\Valheim\BepInEx\config\Menthus.bepinex.plugins.HeightmapUnlimited.cfg[/*]
+[*]Note the values for [b]Max Height[/b] and [b]Min Height[/b].[/*]
+[*]Open <Steam Location>\steamapps\common\Valheim\BepInEx\config\digitalroot.mods.heightmapunlimitedjvl.cfg [/*]
+[*]Update the values for [b]Max Height[/b] and [b]Min Height[/b] to the same values you noted in step 3.[/*]
+[*]Remove <Steam Location>\steamapps\common\Valheim\BepInEx\config\Menthus.bepinex.plugins.HeightmapUnlimited.cfg[/*]
+[/list]
+[quote]Follow the upgrade steps for both the client and server. Copying over the old mods values for the client is only needed for single player/local users. Users that connect to a server only need to remove the old mod and add the new one. The values from the server should push down to the clients when they connect.[/quote]
+
+[b][size=4]Server Info[/size][/b]
+[size=3]Heightmap Unlimited forces players to have the same (unmodified) version installed in order to join your server. Otherwise they're given an "Incompatible Version" error.
+
+Heightmap Unlimited syncs the server's config to connecting players without overwriting their config file (i.e., if a player connects to a server that has a different config, their config file won't change at all, but the depth and height values will reflect that of the server). This was done so players can have a "solo" config, but also join servers where the config is different.[/size]
+
+[size=4][b]Issues/Bugs[/b][/size]
+[size=3]Open an issue or bug on the [url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.HeightmapUnlimitedJvL/issues]issue board[/url]﻿﻿.[/size]
+
+[b][size=4]Support Me[/size][/b] @ [url=https://www.buymeacoffee.com/digitalroot]https://www.buymeacoffee.com/digitalroot[/url]
+
+[center][color=#fff2cc][size=3][b]Digitalroot can be found in the Valhalla Legends' Discord[/b][/size][/color]
+
+[url=https://discord.gg/SsMW3rm67u][img]https://digitalroot.net/img/vl/vl_logo_125x154.png[/img][/url]﻿[/center]

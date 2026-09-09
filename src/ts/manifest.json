@@ -1,0 +1,9 @@
+{
+    "name": "Heightmap_Unlimited_Remake",
+    "version_number": "1.3.0",
+    "website_url": "https://www.nexusmods.com/valheim/mods/359",
+    "description": "Allows players to raise or lower terrain as much as they want! Comes with config so you can set the limits yourself.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1600"
+    ]
+}
