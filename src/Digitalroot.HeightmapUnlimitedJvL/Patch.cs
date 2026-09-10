@@ -1,11 +1,11 @@
 ﻿using Digitalroot.Valheim.Common;
 using HarmonyLib;
 using JetBrains.Annotations;
-using System.Reflection;
 using System.Collections.Generic;
+using System.Reflection;
 using System.Reflection.Emit;
 
-namespace Digitalroot.Valheim.HeightmapUnlimitedJvL
+namespace Digitalroot.HeightmapUnlimitedJvL
 {
   [UsedImplicitly]
   public class Patch

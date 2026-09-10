@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace Digitalroot.Valheim.HeightmapUnlimitedJvL
+namespace Digitalroot.HeightmapUnlimitedJvL
 {
   [SuppressMessage("ReSharper", "MemberCanBePrivate.Global")]
   public partial class Main

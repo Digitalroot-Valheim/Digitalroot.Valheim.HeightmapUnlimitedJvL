@@ -8,10 +8,10 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
-namespace Digitalroot.Valheim.HeightmapUnlimitedJvL
+namespace Digitalroot.HeightmapUnlimitedJvL
 {
   [BepInPlugin(Guid, Name, Version)]
-  [BepInDependency(Jotunn.Main.ModGuid, "2.30.0")]
+  [BepInDependency(Jotunn.Main.ModGuid)]
   [NetworkCompatibility(CompatibilityLevel.ServerMustHaveMod, VersionStrictness.Patch)]
   [SuppressMessage("ReSharper", "MemberCanBePrivate.Global")]
   public partial class Main : BaseUnityPlugin, ITraceableLogging
@@ -56,7 +56,7 @@ namespace Digitalroot.Valheim.HeightmapUnlimitedJvL
         Log.Trace(Instance, $"{Namespace}.{MethodBase.GetCurrentMethod()?.DeclaringType?.Name}.{MethodBase.GetCurrentMethod()?.Name}");
         NexusId = Config.Bind("General", "NexusID", 3612, new ConfigDescription("Nexus mod ID for updates", null, new ConfigurationManagerAttributes { Browsable = false, ReadOnly = true }));
         InitializeConfig();
-        if (Common.Utils.IsHeadless()) return;
+        if (Valheim.Common.Utils.IsHeadless()) return;
         _harmony = Harmony.CreateAndPatchAll(typeof(Main).Assembly, Guid);
       }
       catch (Exception e)

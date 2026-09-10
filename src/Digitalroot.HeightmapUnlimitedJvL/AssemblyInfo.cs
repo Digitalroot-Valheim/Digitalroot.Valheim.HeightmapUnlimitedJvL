@@ -1,4 +1,4 @@
-﻿using Digitalroot.Valheim.HeightmapUnlimitedJvL;
+﻿using Digitalroot.HeightmapUnlimitedJvL;
 using Digitalroot.Valheim.Common;
 
 using System.Reflection;

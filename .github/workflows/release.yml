@@ -29,8 +29,8 @@ jobs:
       webhook_url: ${{ secrets.VALHEIM_DISCORD_TITANS_WEBHOOK_URL }}
 
     with:
-      sln-file-name: Digitalroot.Valheim.HeightmapUnlimitedJvL
-      proj-file-name: Digitalroot.Valheim.HeightmapUnlimitedJvL
+      sln-file-name: Digitalroot.HeightmapUnlimitedJvL
+      proj-file-name: Digitalroot.HeightmapUnlimitedJvL
       is-nuget-package: false
       skip-unit-tests: true
       nexus-enable-upload: true
@@ -40,4 +40,4 @@ jobs:
       ts-name: Better_Wisps
       ts-description: "Make the Wisp do a better job."
       ts-categories: "server-side client-side tweaks" #https://thunderstore.io/api/experimental/community/valheim/category/
-      ts-dependencies: ValheimModding-Jotunn-2.29.3
+      ts-dependencies: ValheimModding-Jotunn-2.30.0

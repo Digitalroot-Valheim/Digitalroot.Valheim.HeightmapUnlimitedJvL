@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <AssemblyName>Digitalroot.Valheim.HeightmapUnlimitedJvL</AssemblyName>
+    <AssemblyName>Digitalroot.HeightmapUnlimitedJvL</AssemblyName>
     <TargetFramework>net48</TargetFramework>
     <LangVersion>10</LangVersion>
-    <RootNamespace>Digitalroot.Valheim.HeightmapUnlimitedJvL</RootNamespace>
+    <RootNamespace>Digitalroot.HeightmapUnlimitedJvL</RootNamespace>
     <IsPublishable>False</IsPublishable>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <DebugType>embedded</DebugType>
@@ -58,7 +58,7 @@
       <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Digitalroot.Valheim.Common.Utils" Version="1.0.69" />
-    <PackageReference Include="Digitalroot.Valheim.References.JvL" Version="2.29.2" />
+    <PackageReference Include="Digitalroot.Valheim.References.JvL" Version="2.30.0" />
     <PackageReference Include="ErrorProne.NET.CoreAnalyzers" Version="0.1.2">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
